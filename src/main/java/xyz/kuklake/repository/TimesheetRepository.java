@@ -7,10 +7,10 @@ import java.util.List;
 
 public class TimesheetRepository {
 
-    public static final List<Timesheet> timesheets = new ArrayList<>();
+    public static List<Timesheet> timesheets = new ArrayList<>();
 
     public void save(Timesheet timesheet) {
         timesheets.add(timesheet);
-//        timesheets = new ArrayList<>();
+        timesheets = new ArrayList<>();
     }
 }
